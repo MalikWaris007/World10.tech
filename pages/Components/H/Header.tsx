@@ -55,13 +55,13 @@ const Header = () => {
               <Link href={'/About'}>About</Link>
               <Link href={"/TeamPage"}>Team</Link>
               <Link href={"/TeamDetail"}>Team Detail</Link>
-              <Link href={""}>Project</Link>
+              <Link href={"/ProjectPage"}>Project</Link>
               <Link href={"/ProjectDetailPage"}>Project Detail</Link>
             </div>
           </div>
           
           <Link
-            href={"/"}
+            href={"/BlogPage"}
             className="flex gap-2 items-center font-medium"
           >
             <h2 className="text-[#565560] hover:text-[#cb81fa]">Blog</h2>

@@ -87,7 +87,7 @@
   @apply pr-3;
 }
 .footer {
-  background-image: url("../public/img/2.webp");
+  background-image: url("../public/img/FooterImg.webp");
 }
 /* Button Animation */
 
@@ -112,16 +112,28 @@
 /* Button Animation */
 /* Home Section1 */
 .homesecimg1 {
-  transform: rotate(320deg);
+  transform: rotate(-20deg);
 }
 .heroSection {
-  background-image: url("../public/img/heroimg.webp");
   background-size: cover;
+  background-image: url("../public/img/heroimg.webp");
 }
-.homesecimg1:hover {
-  transform: scale(1.3);
-  transition: all 1.5s ease-in-out;
+.container {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
+
+.cursor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red; /* Cursor color */
+  position: absolute;
+  pointer-events: none; /* Deactivate click events on cursor */
+}
+
 .homesec1-btn1::before {
   @apply bg-[#edd4fe];
 }
@@ -157,6 +169,7 @@
 /* Home-Section services */
 .homesec5img {
   position: relative;
+  z-index: 1;
 }
 .homesec5img::after {
   content: "";
@@ -185,16 +198,16 @@
 .usercard:hover .homesec5img {
   @apply bg-blue-300;
 }
-.usercard:hover .homesec5img {
-  transform: scale(1.1);
+.usercard:hover .ddd {
+  transform: scale(1.2);
   overflow: hidden;
-  transition: all 0.5s ease-in-out;
   color: #808080;
 }
 .homesection6div:hover .homesection6num {
   @apply bg-black;
 }
 .image {
+  @apply transition duration-1000;
   filter: grayscale(100%);
 }
 .youtubelogo:hover .image {
@@ -418,3 +431,16 @@
   background-color: #ddd;
   border-radius: 5px;
 }
+
+/* Project Page */
+.ProjectImg1{
+  @apply w-[340px] h-[600px]
+}
+.ProjectImg2{
+  @apply w-[340px] h-[280px]
+}
+.readmorebtn:hover .readmoreline{
+  @apply w-[90px] transition duration-1000;
+}
+
+/* Project Page */
