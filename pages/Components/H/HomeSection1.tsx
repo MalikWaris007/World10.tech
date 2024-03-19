@@ -3,6 +3,7 @@ import React from "react";
 import homeimg1 from '@/public/img/1.347066da.webp'
 
 const HomeSection1 = () => {
+  
   return (
     <div className="heroSection bg-[#151423] mb-12 flex justify-around gap-2 py-[80px] overflow-hidden">
       <div className="w-[48%]">
