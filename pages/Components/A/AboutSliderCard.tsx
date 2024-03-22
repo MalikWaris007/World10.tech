@@ -7,8 +7,8 @@ const AboutSliderCard = () => {
         <p>
         Duis leo. Sed fringilla maurisamet nibh. odales sagittionsequat leo egetendum sodales augue nec atpellentesque semper
         </p>
-        <h2>Wilton Fork</h2>
-        <h3>Co-Founder</h3>
+        <h2>M Waris</h2>
+        <h3>Web Developer</h3>
       </div>
     </div>
   )
