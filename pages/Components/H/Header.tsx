@@ -24,7 +24,7 @@ const Header = () => {
               <FaPlus />
             </div>
           </Link>
-          <Link href={"/About"} className="flex gap-2 items-center font-medium">
+          <Link href={"/ShopPage"} className="flex gap-2 items-center font-medium">
             <h2 className="text-[#565560] hover:text-[#cb81fa]">Shop</h2>
             <div>
               <FaPlus />
@@ -75,7 +75,7 @@ const Header = () => {
              
             </Link>
             <div className="dropdown-options">
-              <Link href={""}>Create Meating</Link>
+              <Link href={"/CreateMeeting"}>Create Meating</Link>
               <Link href={""}>Chat with us</Link>
               <Link href={""}>Contact Services</Link>
             </div>

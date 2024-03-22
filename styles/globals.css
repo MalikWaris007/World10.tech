@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+p{
+  @apply font-[Robik,sans-serif];
+}
+h1, h2, h3{
+  @apply font-[Rajdhani,sans-serif];
+}
+
 .navbar {
   @apply flex gap-8 items-center;
 }
@@ -437,3 +444,18 @@
 }
 
 /* Project Page */
+
+/* Shop Page */
+
+.ShopPriceCard{
+  background-image: url("../public/img/blog1.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 290px; 
+  height: 210px;
+}
+/* Shop Page */
+
+/* Appointment Section */
+
+/* Appointment Section */
