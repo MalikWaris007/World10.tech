@@ -16,7 +16,7 @@ h1, h2, h3{
   @apply text-[12px];
 }
 .navbar-btn {
-  @apply bg-[#cb81fa] h-[80px] font-semibold text-[20px] w-[160px];
+  @apply bg-[#cb81fa] h-[80px] font-semibold text-[20px] w-[160px] max-[840px]:w-[120px] max-[840px]:text-[16px] ;
 }
 .navbar-btn::before {
   @apply bg-[#edd4fe];
@@ -64,8 +64,8 @@ h1, h2, h3{
   .home:after{
     @apply w-full;
   }
-  nav .navlink:hover:after {
-   
+  .navlink h2{
+    @apply max-[808px]:text-[14px];
   }
   
 /* DropDown */

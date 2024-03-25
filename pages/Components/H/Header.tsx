@@ -9,14 +9,14 @@ const Header = () => {
   
   return (
    <div className="w-full m-auto">
-     <header className="flex sticky top-0 z-10 justify-between  items-center bg-white border border-black ">
-      <div className="pl-6">
+     <header className="flex sticky top-0 z-10 justify-between items-center bg-white border border-black ">
+      <div className="pl-6 max-[800px]:pl-0">
         <Link href={""}>
           <Image src={logo} alt="" height={80} />
         </Link>
       </div>
-      <div className="flex gap-12">
-        <nav className="navbar flex gap-8">
+      <div className="flex gap-12 max-[960px]:gap-4">
+        <nav className="navbar flex gap-8 max-[920px]:gap-4">
           <Link
             href={"/"}
             className="navlink hover:after:w-[40px] flex gap-2 items-center text-black font-medium relative"
@@ -115,7 +115,7 @@ const Header = () => {
           </div>
         </nav>
         <div className="flex items-center ">
-          <div className="pr-6">
+          <div className="pr-6 max-[750px]:pr-3">
             <FaMagnifyingGlass />
           </div>
           <div className="btn navbar-btn">
