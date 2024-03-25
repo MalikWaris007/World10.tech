@@ -5,11 +5,11 @@ import CountingAnimation from "../C/CountingAnimation";
 
 const HomeSection2 = () => {
   return (
-    <div className="flex justify-around pt-16">
-      <div>
+    <div className="flex justify-around pt-16 max-[1200px]:justify-center max-[1200px]:gap-8 max-[950px]:flex max-[950px]:flex-col max-[950px]:items-center max-[950px]:px-24">
+      <div className="max-[1200px]:w-[400px] max-[1200px]:h-[400px] max-[950px]:w-full max-[]pl-24">
         <Image src={homesecimg2} alt={""} height={500} width={500} />
       </div>
-      <div className="w-[35%]">
+      <div className="w-[35%] max-[950px]:w-full ">
         <div className="flex gap-2 items-center">
           <h2 className="text-blue-700 text-[20px] font-semibold">About</h2>
           <h2 className="w-[40px] h-[2px] bg-blue-700"></h2>

@@ -23,11 +23,11 @@ const HomeSection9 = () => {
       <div className='flex justify-center gap-12 pt-12'>
         <div className='pricingCard border-[2px] border-[#cb81fa] h-[420px] w-[320px] rounded-lg'>
             <section className="h-full">
-            <h2 className='onhover text-black font-semibold pt-3 text-[24px] text-center'>Basic Plan</h2>
-            <div className='onhover flex gap-2 items-center justify-center '>
+            <h2 className='text-black font-semibold pt-3 text-[24px] text-center'>Basic Plan</h2>
+            <div className='flex gap-2 items-center justify-center '>
                 <span className='font-bold relative bottom-3 left-2 text-[20px] pl-6'>$</span>
                 <h2 className='text-[75px] font-bold'>12</h2>
-                <p className='onhover text-gray-500 text-[20px] font-semibold'>per month billed annually</p>
+                <p className='text-gray-500 text-[20px] font-semibold'>per month billed annually</p>
             </div>
            <div className='pl-6'>
            <ul className='pl-7 list-disc text-[17px] font-semibold text-gray-600 flex flex-col gap-2'>

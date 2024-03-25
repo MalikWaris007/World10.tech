@@ -25,22 +25,22 @@ const HomeSection4 = () => {
             </button>
           </div>
         </div>
-        <div className="homesec4-div2 bg-transparent hover:bg-[#cb81fa] flex flex-col gap-4 items-center justify-center p-8 pt-11 pb-11 rounded-xl">
+        <div className="homesec4-div2 bg-transparent hover:bg-[#cb81fa] transition duration-700 flex flex-col gap-4 items-center justify-center p-8 pt-11 pb-11 rounded-xl">
             <FaLayerGroup />
             <h2 className="text-white text-[30px] font-semibold">Web design</h2>
             <p className="text-white text-[18px] font-semibold text-center">Curabitur ullamcorper ultricies nisiam tiamns rhoncus. Maecenas tempus tellus endimentum</p>
         </div>
-        <div className="homesec4-div2 bg-transparent hover:bg-[#cb81fa] flex flex-col gap-4 items-center justify-centerp-8 pt-11 pb-11 rounded-xl">
+        <div className="homesec4-div2 bg-transparent hover:bg-[#cb81fa] transition duration-700 flex flex-col gap-4 items-center justify-center p-8 pt-11 pb-11 rounded-xl">
             <FaLayerGroup />
             <h2 className="text-white text-[30px] font-semibold">App development</h2>
             <p className="text-white text-[18px] font-semibold text-center">Curabitur ullamcorper ultricies nisiam tiamns rhoncus. Maecenas tempus tellus endimentum</p>
         </div>
-        <div className="homesec4-div2 bg-transparent hover:bg-[#cb81fa] flex flex-col gap-4 items-center justify-center p-8 pt-11 pb-11 rounded-xl">
+        <div className="homesec4-div2 bg-transparent hover:bg-[#cb81fa] transition duration-700 flex flex-col gap-4 items-center justify-center p-8 pt-11 pb-11 rounded-xl">
             <FaLayerGroup />
             <h2 className="text-white text-[30px] font-semibold">Cloud Service</h2>
             <p className="text-white text-[18px] font-semibold text-center">Curabitur ullamcorper ultricies nisiam tiamns rhoncus. Maecenas tempus tellus endimentum</p>
         </div>
-        <div className="homesec4-div2 bg-transparent hover:bg-[#cb81fa] flex flex-col gap-4 items-center justify-center p-8 pt-11 pb-11 rounded-xl"> 
+        <div className="homesec4-div2 bg-transparent hover:bg-[#cb81fa] transition duration-700 flex flex-col gap-4 items-center justify-center p-8 pt-11 pb-11 rounded-xl"> 
         <FaLayerGroup />
         <h2 className="text-white text-[30px] font-semibold">It mangement</h2>
         <p className="text-white text-[18px] font-semibold text-center">Curabitur ullamcorper ultricies nisiam tiamns rhoncus. Maecenas tempus tellus endimentum</p>
