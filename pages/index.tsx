@@ -18,7 +18,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <div className="border border-red-900">
-      <Layout>
+      {/* <Layout> */}
         {/* Hero Section */}
       <HomeSection1 />
         {/* Hero Section */}
@@ -32,7 +32,7 @@ export default function Home() {
       {/* Why Choose Us */}
 
       {/* Services */}
-      <HomeSection4 />
+      {/* <HomeSection4 /> */}
       {/* Services */}
 
       {/* Expert Team */}
@@ -40,30 +40,30 @@ export default function Home() {
       {/* Expert Team */}
 
       {/* Work Process */}
-      <HomeSection6 />
+      {/* <HomeSection6 /> */}
       {/* Work Process */}
       
       {/* Faq */}
-      <HomeSection7 />
+      {/* <HomeSection7 /> */}
       {/* Faq */}
 
       {/* Case Study */}
-      <HomeSection8 />
+      {/* <HomeSection8 /> */}
       {/* Case Study */}
 
       {/* Pricing Plan */}
-      <HomeSection9 />
+      {/* <HomeSection9 /> */}
       {/* Pricing Plan */}
 
       {/* Professional Skill */}
-      <HomeSection10 />
+      {/* <HomeSection10 /> */}
       {/* Professional Skill */}
 
       {/* blog Post */}
-      <HomeSection11 />
+      {/* <HomeSection11 /> */}
       {/* blog Post */}
 
-    </Layout>
+    {/* </Layout> */}
     </div>
   );
 }

@@ -150,6 +150,7 @@ h1, h2, h3{
 .footer-input-arrow {
   @apply pr-3;
 }
+
 .footer {
   background-image: url("../public/img/FooterImg.webp");
 }
@@ -175,14 +176,18 @@ h1, h2, h3{
 }
 /* Button Animation */
 /* Home Section1 */
-.homesecimg1 {
-  transform: rotate(-20deg);
+.homesecimg1:hover{
+  @apply transition duration-700 ease-in-out;
+  transform: scale(1.05);
 }
-.heroSection {
+#heroSection{
+  background-image: url('../public/img/2.webp');
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .container {
-  background-image: url("../public/img/heroimg.webp");
+  background-image:  url("../public/img/heroimg.webp");
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -202,15 +207,9 @@ h1, h2, h3{
   border-radius: 50% 0 50% 50%;
 }
 /* Home-Section services */
-.homesection4 {
-  display: grid;
-  justify-content: center;
-  gap: 30px;
-  grid-template-columns: 450px 380px 380px;
-}
-.homesection4-div1 {
-  grid-row: 1/4 span;
-}
+
+
+
 .homesec4-div2 svg {
   @apply text-[#cb81fa] text-[24px];
 }
@@ -486,18 +485,33 @@ h1, h2, h3{
   .heroSection{
     @apply px-10;
   }
-  
   .heroSection p{
     @apply text-[18px] font-normal; 
   }
 }
-@media (min-width: 480px) and (max-width: 1000px){
+@media (min-width: 250px) and (max-width: 1000px){
+ .homesecimg1{
+  @apply h-fit w-fit;
+ }
+}
+@media (min-width: 480px) and (max-width: 1200px){
   .heroSection h1{
     @apply text-[50px] leading-[60px];
   }
 }
-
-
+@media (min-width: 700px) and (max-width: 1020px){
+  .homesec5img::after{
+  border-bottom: 30px solid #cb81fa;
+  border-left: 110px solid transparent;
+  border-right: 110px solid transparent;
+  }
+}
+@media (min-width: 480px) and (max-width: 1200px){
+  .footer {
+    background-image: url("../public/img/FooterImg.webp");
+    background-position: center;
+  }
+}
 
 
 /* Resonsivable */

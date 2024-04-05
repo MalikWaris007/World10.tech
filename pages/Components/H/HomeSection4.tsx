@@ -3,9 +3,9 @@ import { FaLayerGroup } from "react-icons/fa";
 
 const HomeSection4 = () => {
   return (
-    <div className="bg-black">
-      <div className="homesection4 py-20 ">
-        <div className="homesection4-div1 bg-[#cb81fa] px-14 pt-12 pb-12 rounded-xl flex flex-col gap-4 h-fit">
+    <div className="bg-gray-500">
+      <div className="flex gap-6 px-20">
+        <div className="homesection4-div1 w-[900px] border bg-[#cb81fa] px-14 py-14 rounded-xl flex flex-col gap-5 h-[500px] max-[1400px]:px-6">
           <h1 className="text-[40px] text-[#fff] font-semibold">We provide the best IT solution</h1>
           <p className="text-[18px] text-[#fff]">
             Vestibulum ante ipsum primis ibus orci luctus etultrices posuebilia
@@ -25,26 +25,35 @@ const HomeSection4 = () => {
             </button>
           </div>
         </div>
-        <div className="homesec4-div2 bg-transparent hover:bg-[#cb81fa] transition duration-700 flex flex-col gap-4 items-center justify-center p-8 pt-11 pb-11 rounded-xl">
+
+        <div className="flex gap-6 flex-col">
+        <div className="homesec4-div2 border bg-transparent hover:bg-[#cb81fa] transition duration-700 flex flex-col gap-4 items-center justify-center px-8 pt-11 pb-11 rounded-xl max-[1280px]:py-6 max-[1330px]:px-6 ">
             <FaLayerGroup />
             <h2 className="text-white text-[30px] font-semibold">Web design</h2>
             <p className="text-white text-[18px] font-semibold text-center">Curabitur ullamcorper ultricies nisiam tiamns rhoncus. Maecenas tempus tellus endimentum</p>
         </div>
-        <div className="homesec4-div2 bg-transparent hover:bg-[#cb81fa] transition duration-700 flex flex-col gap-4 items-center justify-center p-8 pt-11 pb-11 rounded-xl">
+        <div className="homesec4-div2 border bg-transparent hover:bg-[#cb81fa] transition duration-700 flex flex-col gap-4 items-center justify-center p-8 pt-11 pb-11 rounded-xl max-[1280px]:py-6 max-[1330px]:px-6">
             <FaLayerGroup />
             <h2 className="text-white text-[30px] font-semibold">App development</h2>
             <p className="text-white text-[18px] font-semibold text-center">Curabitur ullamcorper ultricies nisiam tiamns rhoncus. Maecenas tempus tellus endimentum</p>
         </div>
-        <div className="homesec4-div2 bg-transparent hover:bg-[#cb81fa] transition duration-700 flex flex-col gap-4 items-center justify-center p-8 pt-11 pb-11 rounded-xl">
+        </div>
+
+
+       <div className="flex gap-6 flex-col">
+       <div className="homesec4-div2 border bg-transparent hover:bg-[#cb81fa] transition duration-700 flex flex-col gap-4 items-center justify-center p-8 pt-11 pb-11 rounded-xl max-[1280px]:py-6 max-[1330px]:px-6">
             <FaLayerGroup />
             <h2 className="text-white text-[30px] font-semibold">Cloud Service</h2>
             <p className="text-white text-[18px] font-semibold text-center">Curabitur ullamcorper ultricies nisiam tiamns rhoncus. Maecenas tempus tellus endimentum</p>
         </div>
-        <div className="homesec4-div2 bg-transparent hover:bg-[#cb81fa] transition duration-700 flex flex-col gap-4 items-center justify-center p-8 pt-11 pb-11 rounded-xl"> 
+        <div className="homesec4-div2 border bg-transparent hover:bg-[#cb81fa] transition duration-700 flex flex-col gap-4 items-center justify-center p-8 pt-11 pb-11 rounded-xl max-[1280px]:py-6 max-[1330px]:px-6"> 
         <FaLayerGroup />
         <h2 className="text-white text-[30px] font-semibold">It mangement</h2>
         <p className="text-white text-[18px] font-semibold text-center">Curabitur ullamcorper ultricies nisiam tiamns rhoncus. Maecenas tempus tellus endimentum</p>
         </div>
+       </div>
+
+
       </div>
     </div>
   );
